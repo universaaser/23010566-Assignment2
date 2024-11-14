@@ -93,6 +93,7 @@ namespace BasicMVCProject.Controllers
         // GET: Campus/Delete/5
         public ActionResult Delete(int? id)
         {
+
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
@@ -105,18 +106,22 @@ namespace BasicMVCProject.Controllers
             return View(campus);
         }
 
-        // POST: Campus/Delete/5
+        // POST: Categories/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
-        {
+{
             Campus campus = db.Campus.Find(id);
-            db.Campus.Remove(campus);
-            db.SaveChanges();
-            return RedirectToAction("Index");
-        }
+            foreach (var s in campus.Students)
+{
+                s.CampusID = null;
+            }
+    db.Campus.Remove(campus);
+db.SaveChanges();
+return RedirectToAction("Index");
+}
 
-        protected override void Dispose(bool disposing)
+protected override void Dispose(bool disposing)
         {
             if (disposing)
             {

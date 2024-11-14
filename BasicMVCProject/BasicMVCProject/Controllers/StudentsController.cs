@@ -12,12 +12,18 @@ using BasicMVCProject.ViewModels;
 
 namespace BasicMVCProject.Controllers
 {
+    using PagedList;
+    using System.Data.Entity;
+    using System.Linq;
+    using System.Web.Mvc;
+    using System.Web.UI;
+
     public class StudentsController : Controller
     {
         private BasicMVCProjectContext db = new BasicMVCProjectContext();
 
         // GET: Students
-        public ActionResult Index(string campus, string search)
+        public ActionResult Index(string campus, string search, string sortBy, int? page)
         {
             StudentIndexViewModel viewModel = new StudentIndexViewModel();
             var students = db.Students.Include(s => s.Campus);
@@ -32,24 +38,46 @@ namespace BasicMVCProject.Controllers
                 viewModel.Search = search;
             }
             viewModel.CampusesWithCount = from matchingProducts in students
-                                      where
-                                      matchingProducts.CampusID != null
-                                      group matchingProducts by
-                                      matchingProducts.Campus.Name into
-                                      catGroup
-                                      select new CampusWithCount()
-                                      {
-                                          CampusName = catGroup.Key,
-                                          StudentCount = catGroup.Count()
-                                      };
+                                          where
+                                          matchingProducts.CampusID != null
+                                          group matchingProducts by
+                                          matchingProducts.Campus.Name into
+                                          catGroup
+                                          select new CampusWithCount()
+                                          {
+                                              CampusName = catGroup.Key,
+                                              StudentCount = catGroup.Count()
+                                          };
 
             //var campuses = students.OrderBy(s => s.Campus.Name).Select(s => s.Campus.Name).Distinct();
             if (!String.IsNullOrEmpty(campus))
             {
                 students = students.Where(s => s.Campus.Name == campus);
             }
+            //sort the results
+            switch (sortBy)
+            {
+                case "name_ascending":
+                    students = students.OrderBy(s => s.Name);
+                    break;
+                case "name_descending":
+                    students = students.OrderByDescending(s => s.Name);
+                    break;
+                default:
+                    students = students.OrderBy(s => s.Name);
+                    break;
+            }
+            viewModel.SortBy = sortBy;
+            viewModel.Sorts = new Dictionary<string, string>
+            {
+                 {"Name Ascending", "name_ascending" },
+                 {"Name Descending", "name_descending" }
+             };
+
             //ViewBag.Campus = new SelectList(campuses);
-            viewModel.Students = students;
+            const int PageItems = 3;
+            int currentPage = (page ?? 1);
+            viewModel.Students = students.ToPagedList(currentPage, PageItems);
             //return View(students.ToList());
             return View(viewModel);
 

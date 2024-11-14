@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\BasicMVCProject.csproj|C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\basicmvcproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\BasicMVCProject.csproj|solutionrelative:basicmvcproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\lab8.csproj|c:\\users\\86138\\source\\repos\\basicmvcproject\\basicmvcproject\\basicmvcproject\\controllers\\campuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\lab8.csproj|solutionrelative:basicmvcproject\\controllers\\campuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\BasicMVCProject.csproj|c:\\users\\86138\\source\\repos\\basicmvcproject\\basicmvcproject\\basicmvcproject\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\BasicMVCProject.csproj|solutionrelative:basicmvcproject\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\lab8.csproj|c:\\users\\86138\\source\\repos\\basicmvcproject\\basicmvcproject\\basicmvcproject\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\lab8.csproj|solutionrelative:basicmvcproject\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\BasicMVCProject.csproj|C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\basicmvcproject\\viewmodels\\studentindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\BasicMVCProject.csproj|solutionrelative:basicmvcproject\\viewmodels\\studentindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\lab8.csproj|C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\basicmvcproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\lab8.csproj|solutionrelative:basicmvcproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\BasicMVCProject.csproj|C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\basicmvcproject\\models\\campus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\BasicMVCProject.csproj|solutionrelative:basicmvcproject\\models\\campus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\lab8.csproj|C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\basicmvcproject\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\lab8.csproj|solutionrelative:basicmvcproject\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\BasicMVCProject.csproj|C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\basicmvcproject\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\BasicMVCProject.csproj|solutionrelative:basicmvcproject\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\lab8.csproj|C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\basicmvcproject\\viewmodels\\studentindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\lab8.csproj|solutionrelative:basicmvcproject\\viewmodels\\studentindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\lab8.csproj|C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\basicmvcproject\\models\\campus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\lab8.csproj|solutionrelative:basicmvcproject\\models\\campus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\lab8.csproj|C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\basicmvcproject\\migrations\\202411130655598_categorynamevalidation1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\lab8.csproj|solutionrelative:basicmvcproject\\migrations\\202411130655598_categorynamevalidation1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\lab8.csproj|C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\basicmvcproject\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7523C07-2CC9-4913-BE38-4DA2E9F29F95}|BasicMVCProject\\lab8.csproj|solutionrelative:basicmvcproject\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,48 +42,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\BasicMVCProject\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "BasicMVCProject\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\BasicMVCProject\\Models\\Student.cs",
-              "RelativeToolTip": "BasicMVCProject\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Title": "CampusController.cs",
+              "DocumentMoniker": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\BasicMVCProject\\Controllers\\CampusController.cs",
+              "RelativeDocumentMoniker": "BasicMVCProject\\Controllers\\CampusController.cs",
+              "ToolTip": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\BasicMVCProject\\Controllers\\CampusController.cs",
+              "RelativeToolTip": "BasicMVCProject\\Controllers\\CampusController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAAHUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T12:00:25.241Z",
+              "WhenOpened": "2024-11-14T02:53:03.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\BasicMVCProject\\Views\\Students\\Index.cshtml",
               "RelativeDocumentMoniker": "BasicMVCProject\\Views\\Students\\Index.cshtml",
               "ToolTip": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\BasicMVCProject\\Views\\Students\\Index.cshtml",
               "RelativeToolTip": "BasicMVCProject\\Views\\Students\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACQAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwCQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-06T11:56:02.955Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentIndexViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\BasicMVCProject\\ViewModels\\StudentIndexViewModel.cs",
-              "RelativeDocumentMoniker": "BasicMVCProject\\ViewModels\\StudentIndexViewModel.cs",
-              "ToolTip": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\BasicMVCProject\\ViewModels\\StudentIndexViewModel.cs",
-              "RelativeToolTip": "BasicMVCProject\\ViewModels\\StudentIndexViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T11:41:53.454Z"
+              "WhenOpened": "2024-11-13T07:09:42.068Z"
             },
             {
               "$type": "Document",
@@ -81,22 +77,70 @@
               "RelativeDocumentMoniker": "BasicMVCProject\\Controllers\\StudentsController.cs",
               "ToolTip": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\BasicMVCProject\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "BasicMVCProject\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAWwDMAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T09:06:57.556Z",
+              "WhenOpened": "2024-11-13T07:05:42.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "StudentIndexViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\BasicMVCProject\\ViewModels\\StudentIndexViewModel.cs",
+              "RelativeDocumentMoniker": "BasicMVCProject\\ViewModels\\StudentIndexViewModel.cs",
+              "ToolTip": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\BasicMVCProject\\ViewModels\\StudentIndexViewModel.cs",
+              "RelativeToolTip": "BasicMVCProject\\ViewModels\\StudentIndexViewModel.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T07:04:12.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "202411130655598_CategoryNameValidation1.cs",
+              "DocumentMoniker": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\BasicMVCProject\\Migrations\\202411130655598_CategoryNameValidation1.cs",
+              "RelativeDocumentMoniker": "BasicMVCProject\\Migrations\\202411130655598_CategoryNameValidation1.cs",
+              "ToolTip": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\BasicMVCProject\\Migrations\\202411130655598_CategoryNameValidation1.cs",
+              "RelativeToolTip": "BasicMVCProject\\Migrations\\202411130655598_CategoryNameValidation1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T06:56:04.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\BasicMVCProject\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "BasicMVCProject\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\BasicMVCProject\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "BasicMVCProject\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T06:53:09.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\BasicMVCProject\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "BasicMVCProject\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\BasicMVCProject\\Models\\Student.cs",
+              "RelativeToolTip": "BasicMVCProject\\Models\\Student.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T06:34:48.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Campus.cs",
               "DocumentMoniker": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\BasicMVCProject\\Models\\Campus.cs",
               "RelativeDocumentMoniker": "BasicMVCProject\\Models\\Campus.cs",
               "ToolTip": "C:\\Users\\86138\\source\\repos\\BasicMVCProject\\BasicMVCProject\\BasicMVCProject\\Models\\Campus.cs",
               "RelativeToolTip": "BasicMVCProject\\Models\\Campus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T09:03:32.558Z"
+              "WhenOpened": "2024-11-13T06:33:47.953Z"
             }
           ]
         }
