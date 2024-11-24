@@ -1,0 +1,101 @@
+﻿/* 整体导航栏样式 */
+.custom-navbar {
+    background-color: #555; /* 背景颜色为深灰色，可根据喜好调整 */
+    padding: 0; /* 去除默认内边距 */
+}
+
+/* 导航栏容器样式 */
+.custom-container {
+    width: 100%;
+    max-width: 1200px; /* 设置一个最大宽度，可根据实际情况调整 */
+    margin: 0 auto; /* 水平居中 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 导航栏品牌（一般是网站标题那部分）样式 */
+.custom-navbar-brand {
+    color: white;
+    font-size: 30x;
+    text-decoration: none; /* 去除默认链接下划线 */
+    margin-left: 20px; /* 左边距，可调整位置 */
+}
+
+/* 导航栏切换按钮样式 */
+.custom-toggler {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px; /* 右边距，可调整位置 */
+}
+
+/* 导航栏切换按钮图标样式 */
+.custom-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* 这里是一个简单的三条横线图标示例，可替换为实际图标 */
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+/* 导航栏折叠后内容区域样式 */
+.custom-navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+
+/* 导航栏列表样式 */
+.custom-navbar-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around; /* 均匀分布导航项 */
+}
+
+/* 单个导航链接样式 */
+.custom-nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; /* 链接内边距，可调整点击区域大小和外观 */
+    transition: all 0.3s ease; /* 过渡效果，鼠标悬停时更平滑变化 */
+}
+
+    .custom-nav-link:hover {
+        background-color: #555; /* 鼠标悬停时背景变色 */
+        border-radius: 5px; /* 有一点圆角效果 */
+    }
+
+/* 导航栏中搜索表单所在的外层样式 */
+.custom-navbar-form {
+    display: flex;
+    align-items: center;
+}
+
+/* 搜索框输入框样式 */
+.custom-form-group {
+    margin-right: 10px; /* 和提交按钮之间的间距 */
+}
+
+.custom-form-control {
+    border-radius: 5px; /* 输入框圆角 */
+    border: none;
+    padding: 5px 10px;
+}
+
+/* 搜索表单提交按钮样式 */
+.custom-btn,
+.custom-btn-default {
+    background-color: #007bff; /* 按钮背景色，示例蓝色，可改 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    .custom-btn:hover,
+    .custom-btn-default:hover {
+        background-color: #0056b3; /* 鼠标悬停按钮背景色加深 */
+    }

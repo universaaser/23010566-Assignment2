@@ -4,8 +4,8 @@
     ViewBag.Title = "Students";
 }
 
-<h2>Index</h2>
-
+<h2>Students</h2>
+<link rel="stylesheet" href="~/Content/styles.css">
 <p>
     @(String.IsNullOrWhiteSpace(Model.Search) ? "Showing all" : "You searched for " + Model.Search + " found") @Model.Students.TotalItemCount students
     @Html.ActionLink("Create New", "Create")

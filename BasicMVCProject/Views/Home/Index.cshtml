@@ -1,33 +1,82 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Multi - Campus Student Management System";
 }
 
-<main>
-    <section class="row" aria-labelledby="aspnetTitle">
-        <h1 id="title">ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-        <p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
-    </section>
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="~/Content/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device - width, initial - scale=1.0">
+  
+</head>
 
-    <div class="row">
-        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-            <h2 id="gettingStartedTitle">Getting started</h2>
-            <p>
-                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-                enables a clean separation of concerns and gives you full control over markup
-                for enjoyable, agile development.
-            </p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+<body>
+    <main>
+        <!-- 标题和引导语部分 -->
+        <section class="row" aria - labelledby="systemTitle">
+            <h1 id="title">Multi - Campus Student Management System</h1>
+            <p class="lead"> Multi - Campus Student Management  a convenient platform for cross - regional multi - campus overall management of student information.</p>
         </section>
-        <section class="col-md-4" aria-labelledby="librariesTitle">
-            <h2 id="librariesTitle">Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="hostingTitle">
-            <h2 id="hostingTitle">Web Hosting</h2>
-            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-        </section>
-    </div>
-</main>
+
+        <!-- 功能模块部分（使用卡片组件） -->
+        <div class="row">
+            <div class="col - md - 4">
+                <div class="card">
+                    <div class="card - body">
+                        <h2 id="studentListTitle"class="center-text">Campus Information</h2>
+                        <p>
+                            View all campuses.
+                        </p>
+                        <!-- 跳转到校园信息页面 -->
+                        <p><a href="@Url.Action("Index", "Campus")" class="btn btn - outline - dark">View Campus Information &raquo;</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col - md - 4">
+                <div class="card">
+                    <div class="card - body">
+                        <h2 id="studentListTitle"class="center-text">Student List</h2>
+                        <p>
+                            View information of all students.
+                        </p>
+                        <!-- 跳转到学生列表页面 -->
+                        <p><a class="btn btn - outline - dark" href="@Url.Action("Index", "Students")">View Student List &raquo;</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col - md - 4">
+                <div class="card">
+                    <div class="card - body">
+                        <h2 id="contactTitle"class="center-text">Contact Information</h2>
+                        <p>Get the school's contact information.</p>
+                        <!-- 跳转到校园联系方式页面 -->
+                        <p><a class="btn btn - outline - dark" href="@Url.Action("Contact", "Home")">View Contact Information &raquo;</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 新增学校成果展示和优秀学生代表模块 -->
+        <div class="row" style="margin-top: 30px;">
+            <!-- 学校成果展示模块 -->
+            <div class="col-md-6">
+                <h3>School Achievements Display</h3>
+                <!-- 这里可以添加具体的成果展示内容，比如图片、文字描述等 -->
+                <img src="school_achievement_image.jpg" alt="School Achievement" class="img-fluid">
+                <p>This is a significant achievement of our school in <em>academic research</em>, <em>our research team published a series of high-impact papers in top international journals, which significantly enhanced the school's international reputation in the academic field</em>.</p>
+            </div>
+            <!-- 优秀学生代表模块 -->
+            <div class="col-md-6">
+                <h3>Outstanding Student Representatives</h3>
+                <!-- 这里可以添加优秀学生代表的信息，比如照片、名字、简介等 -->
+                <img src="excellent_student_image.jpg" alt="Excellent Student" class="img-fluid">
+                <p>Name: <em>John Smith</em></p>
+                <p>Class: <em>Senior Grade 3, Class 1</em></p>
+                <p>Profile: <em>John is an outstanding student with excellent academic performance. He has won first prize in multiple national mathematics competitions and actively participates in various school activities. He is also a key member of the school's science and technology innovation club and has made remarkable achievements in the field of robotics.</em></p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

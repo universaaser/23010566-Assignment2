@@ -1,0 +1,107 @@
+﻿
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #e6f7ff, #d0e9ff); /* 页面渐变背景色 */
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明白色背景 */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+/* 标题和引导语样式 */
+#title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+    font-size: 36px;
+}
+.center-text {
+    text-align: center;
+}
+.lead {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* 卡片样式 */
+.card {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+    .card:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+.card-body {
+    padding: 20px;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.card p {
+    text-align: center;
+    color: #333;
+}
+
+/* 按钮样式 */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00bfff;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
+
+#title {
+    text - align: center;
+    margin - bottom: 20px;
+    color: #007bff;
+    font - size: 36px;
+}
+
+textarea {
+    width: 45%;
+    height: 150px;
+    margin - top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border - radius: 4px;
+}
+
+/* 新增样式，使引导语居中 */
+.lead {
+    text - align: center;
+    margin - bottom: 30px;
+}
+
+/* 文本框标注样式 */
+.textarea - label {
+    text - align: center;
+    margin - bottom: 10px;
+}
+
+.center-text {
+    text-align: center;
+}
